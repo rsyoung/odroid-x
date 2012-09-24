@@ -1,0 +1,1 @@
+cmd_drivers/media/video/gspca/gspca_main.ko := arm-none-eabi-ld -EL -r  -T /home/rsyoung/odroid-x/Exynos4412_BSP_alpha3/kernel/test-kernel/scripts/module-common.lds --build-id  -o drivers/media/video/gspca/gspca_main.ko drivers/media/video/gspca/gspca_main.o drivers/media/video/gspca/gspca_main.mod.o

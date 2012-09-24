@@ -1,0 +1,1 @@
+cmd_drivers/scsi/scsi_wait_scan.ko := arm-none-eabi-ld -EL -r  -T /home/rsyoung/odroid-x/Exynos4412_BSP_alpha3/kernel/test-kernel/scripts/module-common.lds --build-id  -o drivers/scsi/scsi_wait_scan.ko drivers/scsi/scsi_wait_scan.o drivers/scsi/scsi_wait_scan.mod.o

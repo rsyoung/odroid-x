@@ -1,0 +1,1 @@
+cmd_drivers/media/video/exynos/built-in.o :=  arm-none-eabi-ld -EL    -r -o drivers/media/video/exynos/built-in.o drivers/media/video/exynos/fimc-is/built-in.o drivers/media/video/exynos/rotator/built-in.o 

@@ -1,0 +1,1 @@
+cmd_crypto/ansi_cprng.ko := arm-none-eabi-ld -EL -r  -T /home/rsyoung/odroid-x/Exynos4412_BSP_alpha3/kernel/test-kernel/scripts/module-common.lds --build-id  -o crypto/ansi_cprng.ko crypto/ansi_cprng.o crypto/ansi_cprng.mod.o

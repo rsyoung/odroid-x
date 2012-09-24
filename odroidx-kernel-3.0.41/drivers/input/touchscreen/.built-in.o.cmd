@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  arm-none-eabi-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/touch.o drivers/input/touchscreen/touch-i2c.o drivers/input/touchscreen/touch-sysfs.o 
